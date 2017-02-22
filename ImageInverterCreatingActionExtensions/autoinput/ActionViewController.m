@@ -43,7 +43,7 @@
             } else if ([itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypeFileURL]){
                 NSLog(@"kUTTypeURL");
                 //                NSExtensionItem *extensionItem = [[NSExtensionItem alloc] init];
-                item.attachments = @[[[NSItemProvider alloc] initWithItem: @{NSExtensionJavaScriptFinalizeArgumentKey: @{@"bgColor":@"red",@"username":@"jeff",@"password":@"123456"}} typeIdentifier:(NSString *)kUTTypePropertyList]];
+                item.attachments = @[[[NSItemProvider alloc] initWithItem: @{NSExtensionJavaScriptFinalizeArgumentKey: @{@"bgColor":@"red",@"username":@"testUser",@"password":@"123456"}} typeIdentifier:(NSString *)kUTTypePropertyList]];
                 [self.extensionContext completeRequestReturningItems:self.extensionContext.inputItems completionHandler:nil];
             } else if ([itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypeURL]){
                 NSLog(@"kUTTypeURL");
