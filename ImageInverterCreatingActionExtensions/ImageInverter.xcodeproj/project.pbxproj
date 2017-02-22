@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58E360D71E5BE43E00A1B53C /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E360D61E5BE43E00A1B53C /* ActionViewController.m */; };
+		58E360DA1E5BE43E00A1B53C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E360D81E5BE43E00A1B53C /* MainInterface.storyboard */; };
+		58E360DE1E5BE43E00A1B53C /* autoinput.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = 58E360D31E5BE43E00A1B53C /* autoinput.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		58E360E31E5BE47300A1B53C /* MyJavaScriptFile.js in Resources */ = {isa = PBXBuildFile; fileRef = 58E360E21E5BE47300A1B53C /* MyJavaScriptFile.js */; };
+		CB08CC6A18EBC99F00B3A377 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB08CC6818EBC99F00B3A377 /* InfoPlist.strings */; };
+		CB08CC6C18EBC99F00B3A377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB08CC6B18EBC99F00B3A377 /* main.m */; };
+		CB08CC7018EBC99F00B3A377 /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB08CC6F18EBC99F00B3A377 /* AAPLAppDelegate.m */; };
+		CB08CC7918EBC99F00B3A377 /* AAPLImageShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB08CC7818EBC99F00B3A377 /* AAPLImageShareVC.m */; };
+		CB08CCBD18EBDAAE00B3A377 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB08CCB818EBD14F00B3A377 /* MobileCoreServices.framework */; };
+		CB410C351933E33200CA8B8B /* image_in_app.png in Resources */ = {isa = PBXBuildFile; fileRef = CB410C341933E33200CA8B8B /* image_in_app.png */; };
+		CB410C371933E35100CA8B8B /* AAPLMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB410C361933E35100CA8B8B /* AAPLMain.storyboard */; };
+		CB410C391933E4BD00CA8B8B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB410C381933E4BC00CA8B8B /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58E360DC1E5BE43E00A1B53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB08CC5B18EBC99F00B3A377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58E360D21E5BE43E00A1B53C;
+			remoteInfo = autoinput;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB08CCAF18EBCDC300B3A377 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				58E360DE1E5BE43E00A1B53C /* autoinput.appex in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		58E360D31E5BE43E00A1B53C /* autoinput.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = autoinput.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E360D51E5BE43E00A1B53C /* ActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		58E360D61E5BE43E00A1B53C /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		58E360D91E5BE43E00A1B53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		58E360DB1E5BE43E00A1B53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E360E21E5BE47300A1B53C /* MyJavaScriptFile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MyJavaScriptFile.js; sourceTree = "<group>"; };
+		CB08CC6318EBC99F00B3A377 /* ImageInverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageInverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB08CC6718EBC99F00B3A377 /* ImageInverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageInverter-Info.plist"; sourceTree = "<group>"; };
+		CB08CC6918EBC99F00B3A377 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB08CC6B18EBC99F00B3A377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB08CC6E18EBC99F00B3A377 /* AAPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLAppDelegate.h; sourceTree = "<group>"; };
+		CB08CC6F18EBC99F00B3A377 /* AAPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLAppDelegate.m; sourceTree = "<group>"; };
+		CB08CC7718EBC99F00B3A377 /* AAPLImageShareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLImageShareVC.h; sourceTree = "<group>"; };
+		CB08CC7818EBC99F00B3A377 /* AAPLImageShareVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLImageShareVC.m; sourceTree = "<group>"; };
+		CB08CCB818EBD14F00B3A377 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CB410C341933E33200CA8B8B /* image_in_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_in_app.png; sourceTree = "<group>"; };
+		CB410C361933E35100CA8B8B /* AAPLMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AAPLMain.storyboard; sourceTree = "<group>"; };
+		CB410C381933E4BC00CA8B8B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58E360D01E5BE43E00A1B53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB08CC6018EBC99F00B3A377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB08CCBD18EBDAAE00B3A377 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58E360D41E5BE43E00A1B53C /* autoinput */ = {
+			isa = PBXGroup;
+			children = (
+				58E360E21E5BE47300A1B53C /* MyJavaScriptFile.js */,
+				58E360D51E5BE43E00A1B53C /* ActionViewController.h */,
+				58E360D61E5BE43E00A1B53C /* ActionViewController.m */,
+				58E360D81E5BE43E00A1B53C /* MainInterface.storyboard */,
+				58E360DB1E5BE43E00A1B53C /* Info.plist */,
+			);
+			path = autoinput;
+			sourceTree = "<group>";
+		};
+		CB08CC5A18EBC99F00B3A377 = {
+			isa = PBXGroup;
+			children = (
+				CB08CC6518EBC99F00B3A377 /* ImageInverter */,
+				58E360D41E5BE43E00A1B53C /* autoinput */,
+				CB08CC6418EBC99F00B3A377 /* Products */,
+				CB08CCBC18EBD77100B3A377 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB08CC6418EBC99F00B3A377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB08CC6318EBC99F00B3A377 /* ImageInverter.app */,
+				58E360D31E5BE43E00A1B53C /* autoinput.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB08CC6518EBC99F00B3A377 /* ImageInverter */ = {
+			isa = PBXGroup;
+			children = (
+				CB08CC6E18EBC99F00B3A377 /* AAPLAppDelegate.h */,
+				CB08CC6F18EBC99F00B3A377 /* AAPLAppDelegate.m */,
+				CB08CC7718EBC99F00B3A377 /* AAPLImageShareVC.h */,
+				CB08CC7818EBC99F00B3A377 /* AAPLImageShareVC.m */,
+				CB410C361933E35100CA8B8B /* AAPLMain.storyboard */,
+				CB410C341933E33200CA8B8B /* image_in_app.png */,
+				CB08CC6618EBC99F00B3A377 /* Supporting Files */,
+			);
+			path = ImageInverter;
+			sourceTree = "<group>";
+		};
+		CB08CC6618EBC99F00B3A377 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB410C381933E4BC00CA8B8B /* Default-568h@2x.png */,
+				CB08CC6718EBC99F00B3A377 /* ImageInverter-Info.plist */,
+				CB08CC6818EBC99F00B3A377 /* InfoPlist.strings */,
+				CB08CC6B18EBC99F00B3A377 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB08CCBC18EBD77100B3A377 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB08CCB818EBD14F00B3A377 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58E360D21E5BE43E00A1B53C /* autoinput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58E360DF1E5BE43E00A1B53C /* Build configuration list for PBXNativeTarget "autoinput" */;
+			buildPhases = (
+				58E360CF1E5BE43E00A1B53C /* Sources */,
+				58E360D01E5BE43E00A1B53C /* Frameworks */,
+				58E360D11E5BE43E00A1B53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autoinput;
+			productName = autoinput;
+			productReference = 58E360D31E5BE43E00A1B53C /* autoinput.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CB08CC6218EBC99F00B3A377 /* ImageInverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB08CC8D18EBC9A000B3A377 /* Build configuration list for PBXNativeTarget "ImageInverter" */;
+			buildPhases = (
+				CB08CC5F18EBC99F00B3A377 /* Sources */,
+				CB08CC6018EBC99F00B3A377 /* Frameworks */,
+				CB08CC6118EBC99F00B3A377 /* Resources */,
+				CB08CCAF18EBCDC300B3A377 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58E360DD1E5BE43E00A1B53C /* PBXTargetDependency */,
+			);
+			name = ImageInverter;
+			productName = ImageInverter;
+			productReference = CB08CC6318EBC99F00B3A377 /* ImageInverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB08CC5B18EBC99F00B3A377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					58E360D21E5BE43E00A1B53C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB08CC5E18EBC99F00B3A377 /* Build configuration list for PBXProject "ImageInverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB08CC5A18EBC99F00B3A377;
+			productRefGroup = CB08CC6418EBC99F00B3A377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB08CC6218EBC99F00B3A377 /* ImageInverter */,
+				58E360D21E5BE43E00A1B53C /* autoinput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58E360D11E5BE43E00A1B53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E360DA1E5BE43E00A1B53C /* MainInterface.storyboard in Resources */,
+				58E360E31E5BE47300A1B53C /* MyJavaScriptFile.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB08CC6118EBC99F00B3A377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB410C371933E35100CA8B8B /* AAPLMain.storyboard in Resources */,
+				CB410C391933E4BD00CA8B8B /* Default-568h@2x.png in Resources */,
+				CB410C351933E33200CA8B8B /* image_in_app.png in Resources */,
+				CB08CC6A18EBC99F00B3A377 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58E360CF1E5BE43E00A1B53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E360D71E5BE43E00A1B53C /* ActionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB08CC5F18EBC99F00B3A377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB08CC7918EBC99F00B3A377 /* AAPLImageShareVC.m in Sources */,
+				CB08CC7018EBC99F00B3A377 /* AAPLAppDelegate.m in Sources */,
+				CB08CC6C18EBC99F00B3A377 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58E360DD1E5BE43E00A1B53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58E360D21E5BE43E00A1B53C /* autoinput */;
+			targetProxy = 58E360DC1E5BE43E00A1B53C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58E360D81E5BE43E00A1B53C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E360D91E5BE43E00A1B53C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		CB08CC6818EBC99F00B3A377 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB08CC6918EBC99F00B3A377 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58E360E01E5BE43E00A1B53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = autoinput/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ImageInverter.autoinput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58E360E11E5BE43E00A1B53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = autoinput/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ImageInverter.autoinput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CB08CC8B18EBC9A000B3A377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB08CC8C18EBC9A000B3A377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB08CC8E18EBC9A000B3A377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "ImageInverter/ImageInverter-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB08CC8F18EBC9A000B3A377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "ImageInverter/ImageInverter-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58E360DF1E5BE43E00A1B53C /* Build configuration list for PBXNativeTarget "autoinput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E360E01E5BE43E00A1B53C /* Debug */,
+				58E360E11E5BE43E00A1B53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB08CC5E18EBC99F00B3A377 /* Build configuration list for PBXProject "ImageInverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB08CC8B18EBC9A000B3A377 /* Debug */,
+				CB08CC8C18EBC9A000B3A377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB08CC8D18EBC9A000B3A377 /* Build configuration list for PBXNativeTarget "ImageInverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB08CC8E18EBC9A000B3A377 /* Debug */,
+				CB08CC8F18EBC9A000B3A377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB08CC5B18EBC99F00B3A377 /* Project object */;
+}
